@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css end */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.box_one, .box_two, .box_three, .box_four, .box_five{
+    text-align: center;
+    background-color: bisque;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    align-content: center;
+    display: none;
+    position: relative;
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word;
+
+}
+p {
+    color: red;
+    position: absolute;
+    top: 179px;
+    left: 109px;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(77, 216, 216);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: cornsilk;
+}
